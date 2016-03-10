@@ -2,7 +2,7 @@ import RPi.GPIO as gpio
 from time import sleep
 import sys
 
-pin=10
+pin=8
 
 gpio.setmode(gpio.BOARD)
 gpio.setup(pin, gpio.OUT)
